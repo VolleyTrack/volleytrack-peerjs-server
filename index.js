@@ -2,7 +2,7 @@ const { PeerServer } = require('peer')
 const PORT = process.env.PORT || 9000
 const server = PeerServer({
   port: PORT,
-  path: '/peerjs',
+  path:  '/',
   allow_discovery: false,
   corsOptions: {
     origin: ['https://volleytrack.app', 'http://localhost:3000'],
